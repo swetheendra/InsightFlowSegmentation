@@ -39,7 +39,7 @@ st.title("🏃‍♂️ InsightFlow: Sports Semantic Intelligence")
 
 # Load model once
 try:
-    model = load_trained_model("weights/football_unet.pth")
+    model = load_trained_model("weights/topic_model.path")
 except Exception as e:
     st.error(f"Could not load model weights. Check the path! Error: {e}")
     st.stop()
