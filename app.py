@@ -4,7 +4,7 @@ import torch
 import numpy as np
 import torchvision.transforms as T
 from PIL import Image
-from model_file import UNET # <--- CHANGE THIS to your filename where UNET is defined
+from model_file import UNET
 
 # --- 1. MODEL LOADING (CACHED) ---
 @st.cache_resource
