@@ -1,4 +1,6 @@
 torch
 torchvision
-pillow
 numpy
+pillow
+albumentations
+ipython
